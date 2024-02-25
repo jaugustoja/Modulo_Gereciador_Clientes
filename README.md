@@ -1,7 +1,9 @@
 # Projeto: Sistema Gerenciador de Vendas
 
 Integrantes: José Augusto
+
 Curso: ADS 5A
+
 Faculdade: Impacta Tecnologia
 
 
