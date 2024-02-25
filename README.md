@@ -1,6 +1,6 @@
 # Projeto: Sistema Gerenciador de Vendas
 
-Integrantes: José Augusto
+Integrantes: José Augusto Jimenes de Araújo
 
 Curso: ADS 5A
 
