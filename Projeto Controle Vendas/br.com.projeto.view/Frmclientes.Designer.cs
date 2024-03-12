@@ -32,42 +32,48 @@
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.maskedTextBox5 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox4 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.comboEstado = new System.Windows.Forms.ComboBox();
+            this.maskedTextCEP = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextCelular = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextTelefone = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextCPF = new System.Windows.Forms.MaskedTextBox();
+            this.maskedTextRG = new System.Windows.Forms.MaskedTextBox();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textCidade = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.textBairro = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.textComplemento = new System.Windows.Forms.TextBox();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.textNumero = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.textEndereco = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textEmail = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textNome = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textCodigo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btnNovo = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.btnExcluir = new System.Windows.Forms.Button();
+            this.btnEditar = new System.Windows.Forms.Button();
+            this.textNameConsulta = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.tabelaCliente = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabelaCliente)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -103,33 +109,33 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.comboBox1);
-            this.tabPage1.Controls.Add(this.maskedTextBox5);
-            this.tabPage1.Controls.Add(this.maskedTextBox4);
-            this.tabPage1.Controls.Add(this.maskedTextBox3);
-            this.tabPage1.Controls.Add(this.maskedTextBox2);
-            this.tabPage1.Controls.Add(this.maskedTextBox1);
+            this.tabPage1.Controls.Add(this.comboEstado);
+            this.tabPage1.Controls.Add(this.maskedTextCEP);
+            this.tabPage1.Controls.Add(this.maskedTextCelular);
+            this.tabPage1.Controls.Add(this.maskedTextTelefone);
+            this.tabPage1.Controls.Add(this.maskedTextCPF);
+            this.tabPage1.Controls.Add(this.maskedTextRG);
             this.tabPage1.Controls.Add(this.label15);
-            this.tabPage1.Controls.Add(this.textBox13);
+            this.tabPage1.Controls.Add(this.textCidade);
             this.tabPage1.Controls.Add(this.label14);
-            this.tabPage1.Controls.Add(this.textBox12);
+            this.tabPage1.Controls.Add(this.textBairro);
             this.tabPage1.Controls.Add(this.label13);
-            this.tabPage1.Controls.Add(this.textBox11);
+            this.tabPage1.Controls.Add(this.textComplemento);
             this.tabPage1.Controls.Add(this.label12);
-            this.tabPage1.Controls.Add(this.textBox10);
+            this.tabPage1.Controls.Add(this.textNumero);
             this.tabPage1.Controls.Add(this.label11);
-            this.tabPage1.Controls.Add(this.textBox9);
+            this.tabPage1.Controls.Add(this.textEndereco);
             this.tabPage1.Controls.Add(this.label10);
             this.tabPage1.Controls.Add(this.label9);
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.textBox5);
+            this.tabPage1.Controls.Add(this.textEmail);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Controls.Add(this.textBox2);
+            this.tabPage1.Controls.Add(this.textNome);
             this.tabPage1.Controls.Add(this.label3);
-            this.tabPage1.Controls.Add(this.textBox1);
+            this.tabPage1.Controls.Add(this.textCodigo);
             this.tabPage1.Controls.Add(this.label2);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -139,103 +145,57 @@
             this.tabPage1.Text = "Dados Pessoais";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // comboEstado
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(774, 246);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Consulta";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(33, 364);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 21);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Novo";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(139, 364);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 21);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(351, 364);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(100, 21);
-            this.button3.TabIndex = 4;
-            this.button3.Text = "Excluir";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button4
-            // 
-            this.button4.Location = new System.Drawing.Point(245, 364);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(100, 21);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Editar";
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboEstado.FormattingEnabled = true;
+            this.comboEstado.Items.AddRange(new object[] {
             "SP",
             "RJ",
             "MG"});
-            this.comboBox1.Location = new System.Drawing.Point(531, 190);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 21);
-            this.comboBox1.TabIndex = 61;
+            this.comboEstado.Location = new System.Drawing.Point(531, 190);
+            this.comboEstado.Name = "comboEstado";
+            this.comboEstado.Size = new System.Drawing.Size(139, 21);
+            this.comboEstado.TabIndex = 61;
             // 
-            // maskedTextBox5
+            // maskedTextCEP
             // 
-            this.maskedTextBox5.Location = new System.Drawing.Point(531, 35);
-            this.maskedTextBox5.Mask = "00000-999";
-            this.maskedTextBox5.Name = "maskedTextBox5";
-            this.maskedTextBox5.Size = new System.Drawing.Size(60, 20);
-            this.maskedTextBox5.TabIndex = 60;
+            this.maskedTextCEP.Location = new System.Drawing.Point(531, 35);
+            this.maskedTextCEP.Mask = "00000-999";
+            this.maskedTextCEP.Name = "maskedTextCEP";
+            this.maskedTextCEP.Size = new System.Drawing.Size(60, 20);
+            this.maskedTextCEP.TabIndex = 60;
             // 
-            // maskedTextBox4
+            // maskedTextCelular
             // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(61, 191);
-            this.maskedTextBox4.Mask = "(99) 0 0000-0000";
-            this.maskedTextBox4.Name = "maskedTextBox4";
-            this.maskedTextBox4.Size = new System.Drawing.Size(84, 20);
-            this.maskedTextBox4.TabIndex = 59;
+            this.maskedTextCelular.Location = new System.Drawing.Point(61, 191);
+            this.maskedTextCelular.Mask = "(99) 0 0000-0000";
+            this.maskedTextCelular.Name = "maskedTextCelular";
+            this.maskedTextCelular.Size = new System.Drawing.Size(84, 20);
+            this.maskedTextCelular.TabIndex = 59;
             // 
-            // maskedTextBox3
+            // maskedTextTelefone
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(61, 165);
-            this.maskedTextBox3.Mask = "(99) 0000-0000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.Size = new System.Drawing.Size(84, 20);
-            this.maskedTextBox3.TabIndex = 58;
+            this.maskedTextTelefone.Location = new System.Drawing.Point(61, 165);
+            this.maskedTextTelefone.Mask = "(99) 0000-0000";
+            this.maskedTextTelefone.Name = "maskedTextTelefone";
+            this.maskedTextTelefone.Size = new System.Drawing.Size(84, 20);
+            this.maskedTextTelefone.TabIndex = 58;
             // 
-            // maskedTextBox2
+            // maskedTextCPF
             // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(61, 113);
-            this.maskedTextBox2.Mask = "###.###.###-##";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.Size = new System.Drawing.Size(84, 20);
-            this.maskedTextBox2.TabIndex = 57;
+            this.maskedTextCPF.Location = new System.Drawing.Point(61, 113);
+            this.maskedTextCPF.Mask = "###.###.###-##";
+            this.maskedTextCPF.Name = "maskedTextCPF";
+            this.maskedTextCPF.Size = new System.Drawing.Size(84, 20);
+            this.maskedTextCPF.TabIndex = 57;
             // 
-            // maskedTextBox1
+            // maskedTextRG
             // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(61, 87);
-            this.maskedTextBox1.Mask = "##.###.###-##";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.Size = new System.Drawing.Size(84, 20);
-            this.maskedTextBox1.TabIndex = 56;
+            this.maskedTextRG.Location = new System.Drawing.Point(61, 87);
+            this.maskedTextRG.Mask = "##.###.###-##";
+            this.maskedTextRG.Name = "maskedTextRG";
+            this.maskedTextRG.Size = new System.Drawing.Size(84, 20);
+            this.maskedTextRG.TabIndex = 56;
             // 
             // label15
             // 
@@ -246,12 +206,12 @@
             this.label15.TabIndex = 55;
             this.label15.Text = "Estado:";
             // 
-            // textBox13
+            // textCidade
             // 
-            this.textBox13.Location = new System.Drawing.Point(531, 165);
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(142, 20);
-            this.textBox13.TabIndex = 54;
+            this.textCidade.Location = new System.Drawing.Point(531, 165);
+            this.textCidade.Name = "textCidade";
+            this.textCidade.Size = new System.Drawing.Size(142, 20);
+            this.textCidade.TabIndex = 54;
             // 
             // label14
             // 
@@ -262,12 +222,12 @@
             this.label14.TabIndex = 53;
             this.label14.Text = "Cidade:";
             // 
-            // textBox12
+            // textBairro
             // 
-            this.textBox12.Location = new System.Drawing.Point(531, 139);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(142, 20);
-            this.textBox12.TabIndex = 52;
+            this.textBairro.Location = new System.Drawing.Point(531, 139);
+            this.textBairro.Name = "textBairro";
+            this.textBairro.Size = new System.Drawing.Size(142, 20);
+            this.textBairro.TabIndex = 52;
             // 
             // label13
             // 
@@ -278,12 +238,12 @@
             this.label13.TabIndex = 51;
             this.label13.Text = "Bairro:";
             // 
-            // textBox11
+            // textComplemento
             // 
-            this.textBox11.Location = new System.Drawing.Point(531, 113);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(84, 20);
-            this.textBox11.TabIndex = 50;
+            this.textComplemento.Location = new System.Drawing.Point(531, 113);
+            this.textComplemento.Name = "textComplemento";
+            this.textComplemento.Size = new System.Drawing.Size(84, 20);
+            this.textComplemento.TabIndex = 50;
             // 
             // label12
             // 
@@ -294,12 +254,12 @@
             this.label12.TabIndex = 49;
             this.label12.Text = "Complemento:";
             // 
-            // textBox10
+            // textNumero
             // 
-            this.textBox10.Location = new System.Drawing.Point(531, 87);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(84, 20);
-            this.textBox10.TabIndex = 48;
+            this.textNumero.Location = new System.Drawing.Point(531, 87);
+            this.textNumero.Name = "textNumero";
+            this.textNumero.Size = new System.Drawing.Size(84, 20);
+            this.textNumero.TabIndex = 48;
             // 
             // label11
             // 
@@ -310,12 +270,12 @@
             this.label11.TabIndex = 47;
             this.label11.Text = "Numero:";
             // 
-            // textBox9
+            // textEndereco
             // 
-            this.textBox9.Location = new System.Drawing.Point(531, 61);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(231, 20);
-            this.textBox9.TabIndex = 46;
+            this.textEndereco.Location = new System.Drawing.Point(531, 61);
+            this.textEndereco.Name = "textEndereco";
+            this.textEndereco.Size = new System.Drawing.Size(231, 20);
+            this.textEndereco.TabIndex = 46;
             // 
             // label10
             // 
@@ -353,12 +313,12 @@
             this.label7.TabIndex = 42;
             this.label7.Text = "Telefone:";
             // 
-            // textBox5
+            // textEmail
             // 
-            this.textBox5.Location = new System.Drawing.Point(61, 139);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(249, 20);
-            this.textBox5.TabIndex = 41;
+            this.textEmail.Location = new System.Drawing.Point(61, 139);
+            this.textEmail.Name = "textEmail";
+            this.textEmail.Size = new System.Drawing.Size(249, 20);
+            this.textEmail.TabIndex = 41;
             // 
             // label6
             // 
@@ -387,12 +347,12 @@
             this.label4.TabIndex = 38;
             this.label4.Text = "RG:";
             // 
-            // textBox2
+            // textNome
             // 
-            this.textBox2.Location = new System.Drawing.Point(61, 61);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(249, 20);
-            this.textBox2.TabIndex = 37;
+            this.textNome.Location = new System.Drawing.Point(61, 61);
+            this.textNome.Name = "textNome";
+            this.textNome.Size = new System.Drawing.Size(249, 20);
+            this.textNome.TabIndex = 37;
             // 
             // label3
             // 
@@ -403,12 +363,12 @@
             this.label3.TabIndex = 36;
             this.label3.Text = "Nome:";
             // 
-            // textBox1
+            // textCodigo
             // 
-            this.textBox1.Location = new System.Drawing.Point(61, 35);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(84, 20);
-            this.textBox1.TabIndex = 35;
+            this.textCodigo.Location = new System.Drawing.Point(61, 35);
+            this.textCodigo.Name = "textCodigo";
+            this.textCodigo.Size = new System.Drawing.Size(84, 20);
+            this.textCodigo.TabIndex = 35;
             // 
             // label2
             // 
@@ -419,15 +379,99 @@
             this.label2.TabIndex = 34;
             this.label2.Text = "Código:";
             // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.tabelaCliente);
+            this.tabPage2.Controls.Add(this.btnPesquisar);
+            this.tabPage2.Controls.Add(this.textNameConsulta);
+            this.tabPage2.Controls.Add(this.label16);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(774, 246);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Consulta";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // btnNovo
+            // 
+            this.btnNovo.Location = new System.Drawing.Point(33, 364);
+            this.btnNovo.Name = "btnNovo";
+            this.btnNovo.Size = new System.Drawing.Size(100, 21);
+            this.btnNovo.TabIndex = 2;
+            this.btnNovo.Text = "Novo";
+            this.btnNovo.UseVisualStyleBackColor = true;
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Location = new System.Drawing.Point(139, 364);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(100, 21);
+            this.btnSalvar.TabIndex = 3;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // btnExcluir
+            // 
+            this.btnExcluir.Location = new System.Drawing.Point(351, 364);
+            this.btnExcluir.Name = "btnExcluir";
+            this.btnExcluir.Size = new System.Drawing.Size(100, 21);
+            this.btnExcluir.TabIndex = 4;
+            this.btnExcluir.Text = "Excluir";
+            this.btnExcluir.UseVisualStyleBackColor = true;
+            // 
+            // btnEditar
+            // 
+            this.btnEditar.Location = new System.Drawing.Point(245, 364);
+            this.btnEditar.Name = "btnEditar";
+            this.btnEditar.Size = new System.Drawing.Size(100, 21);
+            this.btnEditar.TabIndex = 5;
+            this.btnEditar.Text = "Editar";
+            this.btnEditar.UseVisualStyleBackColor = true;
+            // 
+            // textNameConsulta
+            // 
+            this.textNameConsulta.Location = new System.Drawing.Point(67, 21);
+            this.textNameConsulta.Name = "textNameConsulta";
+            this.textNameConsulta.Size = new System.Drawing.Size(249, 20);
+            this.textNameConsulta.TabIndex = 39;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(23, 24);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(38, 13);
+            this.label16.TabIndex = 38;
+            this.label16.Text = "Nome:";
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Location = new System.Drawing.Point(322, 21);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(76, 20);
+            this.btnPesquisar.TabIndex = 40;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            // 
+            // tabelaCliente
+            // 
+            this.tabelaCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tabelaCliente.Location = new System.Drawing.Point(26, 49);
+            this.tabelaCliente.Name = "tabelaCliente";
+            this.tabelaCliente.Size = new System.Drawing.Size(729, 184);
+            this.tabelaCliente.TabIndex = 41;
+            // 
             // Frmclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(790, 392);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEditar);
+            this.Controls.Add(this.btnExcluir);
+            this.Controls.Add(this.btnSalvar);
+            this.Controls.Add(this.btnNovo);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel1);
             this.Name = "Frmclientes";
@@ -437,6 +481,9 @@
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tabelaCliente)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -448,37 +495,41 @@
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox5;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox4;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
+        private System.Windows.Forms.Button btnNovo;
+        private System.Windows.Forms.Button btnSalvar;
+        private System.Windows.Forms.Button btnExcluir;
+        private System.Windows.Forms.Button btnEditar;
+        private System.Windows.Forms.ComboBox comboEstado;
+        private System.Windows.Forms.MaskedTextBox maskedTextCEP;
+        private System.Windows.Forms.MaskedTextBox maskedTextCelular;
+        private System.Windows.Forms.MaskedTextBox maskedTextTelefone;
+        private System.Windows.Forms.MaskedTextBox maskedTextCPF;
+        private System.Windows.Forms.MaskedTextBox maskedTextRG;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textCidade;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox textBairro;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox textComplemento;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.TextBox textNumero;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox textEndereco;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textEmail;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textNome;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textCodigo;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnPesquisar;
+        private System.Windows.Forms.TextBox textNameConsulta;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.DataGridView tabelaCliente;
     }
 }

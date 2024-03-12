@@ -17,3 +17,22 @@ C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\Repositorio\Projeto Con
 C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\Repositorio\Projeto Controle Vendas\obj\Debug\Projeto .EC285273.Up2Date
 C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\Repositorio\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.exe
 C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\Repositorio\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.pdb
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Projeto Controle Vendas.exe.config
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Projeto Controle Vendas.exe
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Projeto Controle Vendas.pdb
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Google.Protobuf.dll
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\MySql.Data.dll
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Renci.SshNet.dll
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Google.Protobuf.xml
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\MySql.Data.xml
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\bin\Debug\Renci.SshNet.xml
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.csproj.AssemblyReference.cache
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto_Controle_Vendas.br.com.projeto.view.Frmclientes.resources
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto_Controle_Vendas.Properties.Resources.resources
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.csproj.GenerateResource.cache
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.csproj.CoreCompileInputs.cache
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto .EC285273.Up2Date
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.exe
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Controle Vendas\obj\Debug\Projeto Controle Vendas.pdb
