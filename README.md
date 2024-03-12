@@ -1,4 +1,4 @@
-# Projeto: Sistema Gerenciador de Vendas
+# Projeto: Módulo de Gerenciamento de Clientes
 
 Integrantes: José Augusto Jimenes de Araújo
 
