@@ -61,14 +61,14 @@
             this.textCodigo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabelaCliente = new System.Windows.Forms.DataGridView();
+            this.btnPesquisar = new System.Windows.Forms.Button();
+            this.textNameConsulta = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.btnNovo = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.btnEditar = new System.Windows.Forms.Button();
-            this.textNameConsulta = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
-            this.btnPesquisar = new System.Windows.Forms.Button();
-            this.tabelaCliente = new System.Windows.Forms.DataGridView();
             this.panel1.SuspendLayout();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -393,6 +393,41 @@
             this.tabPage2.Text = "Consulta";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // tabelaCliente
+            // 
+            this.tabelaCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tabelaCliente.Location = new System.Drawing.Point(26, 49);
+            this.tabelaCliente.Name = "tabelaCliente";
+            this.tabelaCliente.Size = new System.Drawing.Size(729, 184);
+            this.tabelaCliente.TabIndex = 41;
+            this.tabelaCliente.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tabelaCliente_CellContentClick);
+            // 
+            // btnPesquisar
+            // 
+            this.btnPesquisar.Location = new System.Drawing.Point(322, 21);
+            this.btnPesquisar.Name = "btnPesquisar";
+            this.btnPesquisar.Size = new System.Drawing.Size(76, 20);
+            this.btnPesquisar.TabIndex = 40;
+            this.btnPesquisar.Text = "Pesquisar";
+            this.btnPesquisar.UseVisualStyleBackColor = true;
+            this.btnPesquisar.Click += new System.EventHandler(this.btnPesquisar_Click);
+            // 
+            // textNameConsulta
+            // 
+            this.textNameConsulta.Location = new System.Drawing.Point(67, 21);
+            this.textNameConsulta.Name = "textNameConsulta";
+            this.textNameConsulta.Size = new System.Drawing.Size(249, 20);
+            this.textNameConsulta.TabIndex = 39;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(23, 24);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(38, 13);
+            this.label16.TabIndex = 38;
+            this.label16.Text = "Nome:";
+            // 
             // btnNovo
             // 
             this.btnNovo.Location = new System.Drawing.Point(33, 364);
@@ -430,39 +465,6 @@
             this.btnEditar.Text = "Editar";
             this.btnEditar.UseVisualStyleBackColor = true;
             // 
-            // textNameConsulta
-            // 
-            this.textNameConsulta.Location = new System.Drawing.Point(67, 21);
-            this.textNameConsulta.Name = "textNameConsulta";
-            this.textNameConsulta.Size = new System.Drawing.Size(249, 20);
-            this.textNameConsulta.TabIndex = 39;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(23, 24);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(38, 13);
-            this.label16.TabIndex = 38;
-            this.label16.Text = "Nome:";
-            // 
-            // btnPesquisar
-            // 
-            this.btnPesquisar.Location = new System.Drawing.Point(322, 21);
-            this.btnPesquisar.Name = "btnPesquisar";
-            this.btnPesquisar.Size = new System.Drawing.Size(76, 20);
-            this.btnPesquisar.TabIndex = 40;
-            this.btnPesquisar.Text = "Pesquisar";
-            this.btnPesquisar.UseVisualStyleBackColor = true;
-            // 
-            // tabelaCliente
-            // 
-            this.tabelaCliente.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.tabelaCliente.Location = new System.Drawing.Point(26, 49);
-            this.tabelaCliente.Name = "tabelaCliente";
-            this.tabelaCliente.Size = new System.Drawing.Size(729, 184);
-            this.tabelaCliente.TabIndex = 41;
-            // 
             // Frmclientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -476,6 +478,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Frmclientes";
             this.Text = "Cadastro de Clientes";
+            this.Load += new System.EventHandler(this.Frmclientes_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.tabControl1.ResumeLayout(false);

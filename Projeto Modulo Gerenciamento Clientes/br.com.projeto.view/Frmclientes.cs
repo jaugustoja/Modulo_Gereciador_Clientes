@@ -40,5 +40,32 @@ namespace Projeto_Controle_Vendas.br.com.projeto.view
             ClienteDAO dao = new ClienteDAO();
             dao.cadastrarCliente(obj);
         }
+
+        private void tabelaCliente_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Frmclientes_Load(object sender, EventArgs e)
+        {
+            ClienteDAO dao = new ClienteDAO();
+
+            tabelaCliente.DataSource = dao.listarClientes();
+        }
+
+        private void btnPesquisar_Click(object sender, EventArgs e)
+        {
+            string nome = textNameConsulta.Text;
+
+            ClienteDAO dao = new ClienteDAO();
+
+            tabelaCliente.DataSource = dao.buscarClientePorNome(nome);
+
+            if(tabelaCliente.Rows.Count == 1)
+            {
+                tabelaCliente.DataSource = null;
+                tabelaCliente.DataSource = dao.listarClientes();
+            }
+        }
     }
 }

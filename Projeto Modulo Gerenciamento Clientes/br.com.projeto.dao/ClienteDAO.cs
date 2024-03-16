@@ -3,6 +3,7 @@ using Projeto_Controle_Vendas.br.com.projeto.conexao;
 using Projeto_Controle_Vendas.br.com.projeto.model;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,7 +20,7 @@ namespace Projeto_Controle_Vendas.br.com.projeto.dao
             this.conexao = new ConnectionFactory().getconnection();
         }
 
-        public void cadastrarCliente(Cliente obj) 
+        public void cadastrarCliente(Cliente obj)
         {
             try
             {
@@ -45,12 +46,66 @@ namespace Projeto_Controle_Vendas.br.com.projeto.dao
                 executacmd.ExecuteNonQuery();
 
                 MessageBox.Show("Cliente cadastrado com sucesso");
-                
+
             }
             catch (Exception erro)
             {
                 MessageBox.Show("Aconteceu o erro: " + erro);
             }
         }
+
+        public DataTable listarClientes()
+        {
+            try
+            {
+                DataTable tabelaCliente = new DataTable();
+                string sql = "select * from tb_clientes";
+
+                MySqlCommand executacmd = new MySqlCommand(sql, conexao);
+
+                conexao.Open();
+                executacmd.ExecuteNonQuery();
+
+                MySqlDataAdapter da = new MySqlDataAdapter(executacmd);
+                da.Fill(tabelaCliente);
+
+                conexao.Close();
+
+                return tabelaCliente;
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao executar o comando sql: " + erro);
+                return null;
+            }
+        }
+
+        public DataTable buscarClientePorNome(string nome)
+        {
+            try
+            {
+                DataTable tabelaCliente = new DataTable();
+                string sql = "select * from tb_clientes where nome = @nome";
+
+                MySqlCommand executacmd = new MySqlCommand(sql, conexao);
+                executacmd.Parameters.AddWithValue("@nome", nome);
+
+                conexao.Open();
+                executacmd.ExecuteNonQuery();
+
+                MySqlDataAdapter da = new MySqlDataAdapter(executacmd);
+                da.Fill(tabelaCliente);
+
+                conexao.Close();
+
+                return tabelaCliente;
+            }
+            catch (Exception erro)
+            {
+                MessageBox.Show("Erro ao executar o comando sql: " + erro);
+                return null;
+            }
+        }
+
     }
 }
