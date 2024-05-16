@@ -17,3 +17,4 @@ C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciad
 C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Modulo Gerenciamento Clientes\obj\Debug\Modulo G.09CCAC04.Up2Date
 C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Modulo Gerenciamento Clientes\obj\Debug\Projeto Controle Vendas.exe
 C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Modulo Gerenciamento Clientes\obj\Debug\Projeto Controle Vendas.pdb
+C:\Users\jusea\OneDrive\Documentos\Impacta\Projeto Final\REPO2\Sistema_Gerenciador_Vendas\Projeto Modulo Gerenciamento Clientes\obj\Debug\Projeto_Controle_Vendas.br.com.projeto.view.Frmlogin.resources
