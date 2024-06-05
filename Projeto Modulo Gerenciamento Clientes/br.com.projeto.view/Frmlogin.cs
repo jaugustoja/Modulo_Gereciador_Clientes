@@ -27,10 +27,11 @@ namespace Projeto_Controle_Vendas.br.com.projeto.view
 
             if(dao.EfetuarLogin(email, senha))
             {
-                //Alterar para menu inicial posterior
-                Frmclientes telaClientes = new Frmclientes();
+                
+                FrmMenu telaMenu = new FrmMenu();
                 this.Hide();
-                telaClientes.Show();
+                telaMenu.txtusuario.Text = email;
+                telaMenu.Show();
             }
         }
     }
